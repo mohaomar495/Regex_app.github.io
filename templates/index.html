@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regex Matcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Regex Matcher</h1>
+    <form method="POST">
+        <label for="regex">Enter regular expression:</label><br>
+        <input type="text" id="regex" name="regex" required><br>
+        <label for="test_string">Enter test string:</label><br>
+        <textarea id="test_string" name="test_string" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Email Validator</h1>
+    <form method="POST">
+        <label for="email">Enter email address:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
